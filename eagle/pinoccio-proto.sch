@@ -697,9 +697,9 @@
 <rectangle x1="9.906" y1="32.766" x2="10.414" y2="33.274" layer="51"/>
 <pad name="71" x="12.7" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="12.446" y1="32.766" x2="12.954" y2="33.274" layer="51"/>
-<pad name="72" x="15.24" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-VBAT" x="15.24" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="32.766" x2="15.494" y2="33.274" layer="51"/>
-<pad name="73" x="-5.08" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-RESET" x="-5.08" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-5.334" y1="32.766" x2="-4.826" y2="33.274" layer="51"/>
 <pad name="74" x="-2.54" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="32.766" x2="-2.286" y2="33.274" layer="51"/>
@@ -715,9 +715,9 @@
 <rectangle x1="9.906" y1="35.306" x2="10.414" y2="35.814" layer="51"/>
 <pad name="80" x="12.7" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="12.446" y1="35.306" x2="12.954" y2="35.814" layer="51"/>
-<pad name="81" x="15.24" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-GND" x="15.24" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="35.306" x2="15.494" y2="35.814" layer="51"/>
-<pad name="82" x="-5.08" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-GND2" x="-5.08" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-5.334" y1="35.306" x2="-4.826" y2="35.814" layer="51"/>
 <pad name="83" x="-2.54" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="35.306" x2="-2.286" y2="35.814" layer="51"/>
@@ -733,9 +733,9 @@
 <rectangle x1="9.906" y1="37.846" x2="10.414" y2="38.354" layer="51"/>
 <pad name="89" x="12.7" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="12.446" y1="37.846" x2="12.954" y2="38.354" layer="51"/>
-<pad name="90" x="15.24" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-VCC" x="15.24" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="37.846" x2="15.494" y2="38.354" layer="51"/>
-<pad name="91" x="-5.08" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="P-VUSB" x="-5.08" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-5.334" y1="37.846" x2="-4.826" y2="38.354" layer="51"/>
 <pad name="92" x="-2.54" y="38.1" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="37.846" x2="-2.286" y2="38.354" layer="51"/>
@@ -889,28 +889,28 @@
 <pin name="P$68" x="5.08" y="30.48" visible="off" length="point"/>
 <pin name="P$69" x="2.54" y="30.48" visible="off" length="point"/>
 <pin name="P$70" x="0" y="30.48" visible="off" length="point"/>
-<pin name="P$71" x="15.24" y="30.48" visible="off" length="point"/>
+<pin name="P-VBAT" x="15.24" y="30.48" length="short" function="dot"/>
 <pin name="P$72" x="12.7" y="30.48" visible="off" length="point"/>
 <pin name="P$73" x="-2.54" y="30.48" visible="off" length="point"/>
-<pin name="P$74" x="-5.08" y="30.48" visible="off" length="point"/>
+<pin name="P-RESET" x="-5.08" y="30.48" length="short" function="dot" rot="R180"/>
 <pin name="P$75" x="10.16" y="33.02" visible="off" length="point"/>
 <pin name="P$76" x="7.62" y="33.02" visible="off" length="point"/>
 <pin name="P$77" x="5.08" y="33.02" visible="off" length="point"/>
 <pin name="P$78" x="2.54" y="33.02" visible="off" length="point"/>
 <pin name="P$79" x="0" y="33.02" visible="off" length="point"/>
-<pin name="P$80" x="15.24" y="33.02" visible="off" length="point"/>
+<pin name="P-GND" x="15.24" y="33.02" length="short" function="dot"/>
 <pin name="P$81" x="12.7" y="33.02" visible="off" length="point"/>
 <pin name="P$82" x="-2.54" y="33.02" visible="off" length="point"/>
-<pin name="P$83" x="-5.08" y="33.02" visible="off" length="point"/>
+<pin name="P-GND2" x="-5.08" y="33.02" length="short" function="dot" rot="R180"/>
 <pin name="P$84" x="10.16" y="35.56" visible="off" length="point"/>
 <pin name="P$85" x="7.62" y="35.56" visible="off" length="point"/>
 <pin name="P$86" x="5.08" y="35.56" visible="off" length="point"/>
 <pin name="P$87" x="2.54" y="35.56" visible="off" length="point"/>
 <pin name="P$88" x="0" y="35.56" visible="off" length="point"/>
-<pin name="P$89" x="15.24" y="35.56" visible="off" length="point"/>
+<pin name="P-VCC" x="15.24" y="35.56" length="short" function="dot"/>
 <pin name="P$90" x="12.7" y="35.56" visible="off" length="point"/>
 <pin name="P$91" x="-2.54" y="35.56" visible="off" length="point"/>
-<pin name="P$92" x="-5.08" y="35.56" visible="off" length="point"/>
+<pin name="P-VUSB" x="-5.08" y="35.56" length="short" function="dot" rot="R180"/>
 <pin name="P$93" x="10.16" y="38.1" visible="off" length="point"/>
 <pin name="P$94" x="7.62" y="38.1" visible="off" length="point"/>
 <pin name="P$95" x="5.08" y="38.1" visible="off" length="point"/>
@@ -1155,30 +1155,24 @@ Standard 8.5x11 US Letter frame</description>
 <connect gate="G$1" pin="P$69" pad="69"/>
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$70" pad="70"/>
-<connect gate="G$1" pin="P$71" pad="71"/>
-<connect gate="G$1" pin="P$72" pad="72"/>
-<connect gate="G$1" pin="P$73" pad="73"/>
-<connect gate="G$1" pin="P$74" pad="74"/>
+<connect gate="G$1" pin="P$72" pad="71"/>
+<connect gate="G$1" pin="P$73" pad="74"/>
 <connect gate="G$1" pin="P$75" pad="75"/>
 <connect gate="G$1" pin="P$76" pad="76"/>
 <connect gate="G$1" pin="P$77" pad="77"/>
 <connect gate="G$1" pin="P$78" pad="78"/>
 <connect gate="G$1" pin="P$79" pad="79"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
-<connect gate="G$1" pin="P$80" pad="80"/>
-<connect gate="G$1" pin="P$81" pad="81"/>
-<connect gate="G$1" pin="P$82" pad="82"/>
-<connect gate="G$1" pin="P$83" pad="83"/>
+<connect gate="G$1" pin="P$81" pad="80"/>
+<connect gate="G$1" pin="P$82" pad="83"/>
 <connect gate="G$1" pin="P$84" pad="84"/>
 <connect gate="G$1" pin="P$85" pad="85"/>
 <connect gate="G$1" pin="P$86" pad="86"/>
 <connect gate="G$1" pin="P$87" pad="87"/>
 <connect gate="G$1" pin="P$88" pad="88"/>
-<connect gate="G$1" pin="P$89" pad="89"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
-<connect gate="G$1" pin="P$90" pad="90"/>
-<connect gate="G$1" pin="P$91" pad="91"/>
-<connect gate="G$1" pin="P$92" pad="92"/>
+<connect gate="G$1" pin="P$90" pad="89"/>
+<connect gate="G$1" pin="P$91" pad="92"/>
 <connect gate="G$1" pin="P$93" pad="93"/>
 <connect gate="G$1" pin="P$94" pad="94"/>
 <connect gate="G$1" pin="P$95" pad="95"/>
@@ -1186,6 +1180,12 @@ Standard 8.5x11 US Letter frame</description>
 <connect gate="G$1" pin="P$97" pad="97"/>
 <connect gate="G$1" pin="P$98" pad="98"/>
 <connect gate="G$1" pin="P$99" pad="99"/>
+<connect gate="G$1" pin="P-GND" pad="P-GND"/>
+<connect gate="G$1" pin="P-GND2" pad="P-GND2"/>
+<connect gate="G$1" pin="P-RESET" pad="P-RESET"/>
+<connect gate="G$1" pin="P-VBAT" pad="P-VBAT"/>
+<connect gate="G$1" pin="P-VCC" pad="P-VCC"/>
+<connect gate="G$1" pin="P-VUSB" pad="P-VUSB"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3956,6 +3956,17 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="198.12" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
 <label x="185.42" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P-GND"/>
+<pinref part="U$1" gate="G$1" pin="P-GND2"/>
+<wire x1="116.84" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$77"/>
+<wire x1="96.52" y1="127" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$53"/>
+<wire x1="106.68" y1="127" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
+<junction x="106.68" y="127"/>
+<label x="104.14" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -4054,12 +4065,22 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="198.12" y1="175.26" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
 <label x="185.42" y="175.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P-VUSB"/>
+<wire x1="96.52" y1="129.54" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<label x="93.98" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VBAT-AE" class="0">
 <segment>
 <pinref part="JP-R" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
 <label x="185.42" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P-VBAT"/>
+<wire x1="116.84" y1="124.46" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<label x="111.76" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SSN" class="0">
@@ -4102,6 +4123,11 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP-L" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
 <label x="185.42" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P-RESET"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<label x="93.98" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -4165,6 +4191,11 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP-R" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="185.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P-VCC"/>
+<wire x1="116.84" y1="129.54" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<label x="111.76" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
