@@ -1,8 +1,24 @@
 ----------------
+- v0.10
+- Pinoccio Team
+- Dan Chote - daniel@chote.com
+- 2012-03-13
+----------------
+Add solder pads to bottom of board, for easier tie-in to pins
+----------------
+
+----------------
+- v0.9
+- Pinoccio Team
+- 2012-12-16
+----------------
+Break out power headers to pins above sockets
+----------------
+
+----------------
 - v0.6
 - Pinoccio Team
 - 2012-10-03
 ----------------
 Initial release
 ----------------
-
