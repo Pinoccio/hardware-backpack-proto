@@ -668,21 +668,15 @@
 <pad name="56" x="0" y="27.94" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-0.254" y1="27.686" x2="0.254" y2="28.194" layer="51"/>
 <pad name="57" x="2.54" y="27.94" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="2.286" y1="27.686" x2="2.794" y2="28.194" layer="51"/>
 <pad name="58" x="5.08" y="27.94" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="4.826" y1="27.686" x2="5.334" y2="28.194" layer="51"/>
 <pad name="59" x="7.62" y="27.94" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="7.366" y1="27.686" x2="7.874" y2="28.194" layer="51"/>
 <pad name="60" x="10.16" y="27.94" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="9.906" y1="27.686" x2="10.414" y2="28.194" layer="51"/>
 <pad name="61" x="0" y="30.48" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-0.254" y1="30.226" x2="0.254" y2="30.734" layer="51"/>
 <pad name="62" x="2.54" y="30.48" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="2.286" y1="30.226" x2="2.794" y2="30.734" layer="51"/>
 <pad name="63" x="5.08" y="30.48" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="4.826" y1="30.226" x2="5.334" y2="30.734" layer="51"/>
 <pad name="64" x="7.62" y="30.48" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="7.366" y1="30.226" x2="7.874" y2="30.734" layer="51"/>
 <pad name="65" x="10.16" y="30.48" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="9.906" y1="30.226" x2="10.414" y2="30.734" layer="51"/>
 <pad name="66" x="0" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -757,12 +751,21 @@
 <rectangle x1="-5.334" y1="40.386" x2="-4.826" y2="40.894" layer="51"/>
 <pad name="101" x="-2.54" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="40.386" x2="-2.286" y2="40.894" layer="51"/>
+<rectangle x1="2.286" y1="30.226" x2="2.794" y2="30.734" layer="51"/>
+<rectangle x1="4.826" y1="30.226" x2="5.334" y2="30.734" layer="51"/>
+<rectangle x1="7.366" y1="30.226" x2="7.874" y2="30.734" layer="51"/>
+<rectangle x1="7.366" y1="27.686" x2="7.874" y2="28.194" layer="51"/>
+<rectangle x1="4.826" y1="27.686" x2="5.334" y2="28.194" layer="51"/>
+<rectangle x1="2.286" y1="27.686" x2="2.794" y2="28.194" layer="51"/>
 </package>
 <package name="PAD-100-RND">
 <smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" rot="R90" cream="no"/>
 </package>
 <package name="PAD-100X55-RRECT">
 <smd name="P$1" x="0" y="-0.0254" dx="2.54" dy="1.397" layer="1" roundness="25" cream="no"/>
+</package>
+<package name="PAD-60-31-RECT">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="0.7874" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -881,14 +884,8 @@
 <pin name="P$54" x="2.54" y="22.86" visible="off" length="point"/>
 <pin name="P$55" x="0" y="22.86" visible="off" length="point"/>
 <pin name="P$56" x="10.16" y="25.4" visible="off" length="point"/>
-<pin name="P$57" x="7.62" y="25.4" visible="off" length="point"/>
-<pin name="P$58" x="5.08" y="25.4" visible="off" length="point"/>
-<pin name="P$59" x="2.54" y="25.4" visible="off" length="point"/>
 <pin name="P$60" x="0" y="25.4" visible="off" length="point"/>
 <pin name="P$61" x="10.16" y="27.94" visible="off" length="point"/>
-<pin name="P$62" x="7.62" y="27.94" visible="off" length="point"/>
-<pin name="P$63" x="5.08" y="27.94" visible="off" length="point"/>
-<pin name="P$64" x="2.54" y="27.94" visible="off" length="point"/>
 <pin name="P$65" x="0" y="27.94" visible="off" length="point"/>
 <pin name="P$66" x="10.16" y="30.48" visible="off" length="point"/>
 <pin name="P$67" x="7.62" y="30.48" visible="off" length="point"/>
@@ -935,6 +932,12 @@
 <wire x1="17.78" y1="27.94" x2="17.78" y2="40.64" width="0.254" layer="94"/>
 <wire x1="17.78" y1="40.64" x2="-7.62" y2="40.64" width="0.254" layer="94"/>
 <text x="-7.62" y="43.18" size="1.27" layer="95">&gt;NAME</text>
+<pin name="P$57" x="7.62" y="25.4" visible="off" length="point"/>
+<pin name="P$58" x="5.08" y="25.4" visible="off" length="point"/>
+<pin name="P$59" x="2.54" y="25.4" visible="off" length="point"/>
+<pin name="P$62" x="7.62" y="27.94" visible="off" length="point"/>
+<pin name="P$63" x="5.08" y="27.94" visible="off" length="point"/>
+<pin name="P$64" x="2.54" y="27.94" visible="off" length="point"/>
 </symbol>
 <symbol name="PAD">
 <pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
@@ -1225,6 +1228,14 @@ Standard 8.5x11 US Letter frame</description>
 </technologies>
 </device>
 <device name="55-RRECT" package="PAD-100X55-RRECT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="PAD-60-31-RECT">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
@@ -4052,15 +4063,9 @@ Standard 8.5x11 US Letter frame</description>
 <nets>
 <net name="GND" class="5">
 <segment>
-<pinref part="JP-L" gate="G$1" pin="2"/>
-<label x="185.42" y="172.72" size="1.778" layer="95"/>
-<wire x1="198.12" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
 <pinref part="JP-R" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
-<label x="185.42" y="119.38" size="1.778" layer="95"/>
+<label x="182.88" y="119.38" size="1.778" layer="95"/>
 <pinref part="U$32" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4068,7 +4073,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="6"/>
 <wire x1="198.12" y1="162.56" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
-<label x="185.42" y="162.56" size="1.778" layer="95"/>
+<label x="182.88" y="162.56" size="1.778" layer="95"/>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4076,7 +4081,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
-<label x="185.42" y="167.64" size="1.778" layer="95"/>
+<label x="182.88" y="167.64" size="1.778" layer="95"/>
 <pinref part="U$13" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4084,7 +4089,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="5"/>
 <wire x1="198.12" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-<label x="185.42" y="165.1" size="1.778" layer="95"/>
+<label x="182.88" y="165.1" size="1.778" layer="95"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4092,7 +4097,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="185.42" y="114.3" size="1.778" layer="95"/>
+<label x="182.88" y="114.3" size="1.778" layer="95"/>
 <pinref part="U$30" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4100,7 +4105,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="5"/>
 <wire x1="198.12" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="185.42" y="111.76" size="1.778" layer="95"/>
+<label x="182.88" y="111.76" size="1.778" layer="95"/>
 <pinref part="U$29" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4108,7 +4113,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="8"/>
 <wire x1="198.12" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="185.42" y="104.14" size="1.778" layer="95"/>
+<label x="182.88" y="104.14" size="1.778" layer="95"/>
 <pinref part="U$26" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4116,15 +4121,15 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="175.26" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
-<label x="185.42" y="175.26" size="1.778" layer="95"/>
+<label x="182.88" y="175.26" size="1.778" layer="95"/>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="VBAT-AE" class="0">
+<net name="VBAT" class="0">
 <segment>
 <pinref part="JP-R" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="185.42" y="116.84" size="1.778" layer="95"/>
+<label x="182.88" y="116.84" size="1.778" layer="95"/>
 <pinref part="U$31" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4132,7 +4137,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="7"/>
 <wire x1="198.12" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
-<label x="185.42" y="160.02" size="1.778" layer="95"/>
+<label x="182.88" y="160.02" size="1.778" layer="95"/>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4140,7 +4145,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="6"/>
 <wire x1="198.12" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="185.42" y="109.22" size="1.778" layer="95"/>
+<label x="182.88" y="109.22" size="1.778" layer="95"/>
 <pinref part="U$28" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4148,7 +4153,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="7"/>
 <wire x1="198.12" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="185.42" y="106.68" size="1.778" layer="95"/>
+<label x="182.88" y="106.68" size="1.778" layer="95"/>
 <pinref part="U$27" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4156,7 +4161,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="8"/>
 <wire x1="198.12" y1="157.48" x2="185.42" y2="157.48" width="0.1524" layer="91"/>
-<label x="185.42" y="157.48" size="1.778" layer="95"/>
+<label x="182.88" y="157.48" size="1.778" layer="95"/>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4164,7 +4169,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="9"/>
 <wire x1="198.12" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
-<label x="185.42" y="154.94" size="1.778" layer="95"/>
+<label x="182.88" y="154.94" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4172,7 +4177,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
-<label x="185.42" y="170.18" size="1.778" layer="95"/>
+<label x="182.88" y="170.18" size="1.778" layer="95"/>
 <pinref part="U$14" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4180,7 +4185,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="9"/>
 <wire x1="198.12" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="185.42" y="101.6" size="1.778" layer="95"/>
+<label x="182.88" y="101.6" size="1.778" layer="95"/>
 <pinref part="U$25" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4188,7 +4193,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="10"/>
 <wire x1="198.12" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="185.42" y="99.06" size="1.778" layer="95"/>
+<label x="182.88" y="99.06" size="1.778" layer="95"/>
 <pinref part="U$24" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4196,7 +4201,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="11"/>
 <wire x1="198.12" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="185.42" y="96.52" size="1.778" layer="95"/>
+<label x="182.88" y="96.52" size="1.778" layer="95"/>
 <pinref part="U$23" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4204,7 +4209,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="12"/>
 <wire x1="198.12" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="185.42" y="93.98" size="1.778" layer="95"/>
+<label x="182.88" y="93.98" size="1.778" layer="95"/>
 <pinref part="U$22" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4212,7 +4217,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="13"/>
 <wire x1="198.12" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
-<label x="185.42" y="91.44" size="1.778" layer="95"/>
+<label x="182.88" y="91.44" size="1.778" layer="95"/>
 <pinref part="U$21" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4220,7 +4225,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="14"/>
 <wire x1="198.12" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<label x="185.42" y="88.9" size="1.778" layer="95"/>
+<label x="182.88" y="88.9" size="1.778" layer="95"/>
 <pinref part="U$20" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4228,7 +4233,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="15"/>
 <wire x1="198.12" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
-<label x="185.42" y="86.36" size="1.778" layer="95"/>
+<label x="182.88" y="86.36" size="1.778" layer="95"/>
 <pinref part="U$19" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4236,7 +4241,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="16"/>
 <wire x1="198.12" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<label x="185.42" y="83.82" size="1.778" layer="95"/>
+<label x="182.88" y="83.82" size="1.778" layer="95"/>
 <pinref part="U$18" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4244,7 +4249,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-R" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="185.42" y="121.92" size="1.778" layer="95"/>
+<label x="182.88" y="121.92" size="1.778" layer="95"/>
 <pinref part="U$33" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4252,7 +4257,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="10"/>
 <wire x1="198.12" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
-<label x="185.42" y="152.4" size="1.778" layer="95"/>
+<label x="182.88" y="152.4" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4260,7 +4265,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="11"/>
 <wire x1="198.12" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
-<label x="185.42" y="149.86" size="1.778" layer="95"/>
+<label x="182.88" y="149.86" size="1.778" layer="95"/>
 <pinref part="U$6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4268,7 +4273,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="12"/>
 <wire x1="198.12" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
-<label x="185.42" y="147.32" size="1.778" layer="95"/>
+<label x="182.88" y="147.32" size="1.778" layer="95"/>
 <pinref part="U$5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4276,7 +4281,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="13"/>
 <wire x1="198.12" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<label x="185.42" y="144.78" size="1.778" layer="95"/>
+<label x="182.88" y="144.78" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4284,7 +4289,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="14"/>
 <wire x1="198.12" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="185.42" y="142.24" size="1.778" layer="95"/>
+<label x="182.88" y="142.24" size="1.778" layer="95"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4292,7 +4297,7 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="15"/>
 <wire x1="198.12" y1="139.7" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
-<label x="185.42" y="139.7" size="1.778" layer="95"/>
+<label x="182.88" y="139.7" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -4300,8 +4305,16 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <pinref part="JP-L" gate="G$1" pin="16"/>
 <wire x1="198.12" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
-<label x="185.42" y="137.16" size="1.778" layer="95"/>
+<label x="182.88" y="137.16" size="1.778" layer="95"/>
 <pinref part="U$17" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="BKPK-BUS" class="5">
+<segment>
+<pinref part="JP-L" gate="G$1" pin="2"/>
+<label x="182.88" y="172.72" size="1.778" layer="95"/>
+<wire x1="198.12" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$15" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
