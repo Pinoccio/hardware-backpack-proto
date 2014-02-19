@@ -1,0 +1,9 @@
+-----------------
+Bill of Materials
+Pinoccio Proto Board
+-----------------
+
+Qty    Part #                Manufacturer
+-------------------------------------------------------
+2      SSHQ-216-S-06-GT-lF   Major League Electronics
+1      PCB                   OSHPark
